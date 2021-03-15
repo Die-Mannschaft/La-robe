@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block title %}Contact{% endblock title %}
+
+{% block body %}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80');
+  min-height: 100%;
+}
+</style>
+<div class="container-fluid px-0 mb-3" >
+    <img src="https://images.unsplash.com/photo-1485770958101-9dd7e4ea6d93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=999&q=80" class="d-block w-100 mx-0" alt="...">
+</div>
+<div class="container mb-3 py-4">
+    <h1 class="text-center">Contact Us</h1>
+    <form method="post" action="/contact">
+    {% csrf_token %}
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your Name">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email">
+        </div>
+        
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="phone" class="form-control" id="phone" name="phone" placeholder="Enter Your Phone Number">
+        </div>      
+        
+        <div class="form-group">
+            <label for="desc">Specify the shop and time when you would like to visit </label>
+            <textarea class="form-control" id="desc" rows="3" name="desc"></textarea>
+        </div>
+        
+        
+        
+        <button class="btn btn-primary"  type="submit">Submit</button>
+        
+    </form>
+
+</div>
+
+{% endblock body %}
