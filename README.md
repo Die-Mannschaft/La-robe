@@ -51,7 +51,8 @@ Here are a few screenshots of the website
 ![2021-03-15](https://user-![Untitled design](https://user-images.githubusercontent.com/74534547/122693000-8f1c9400-d255-11eb-99db-03beccb6dd80.png)
 ![2021-03-15 (2)](https://user-images.githubusercontent.com/74534547/111174381-64bf9880-85cd-11eb-8219-dcef41f51714.png)
 ![2021-03-15 (1)](https://user-images.githubusercontent.com/74534547/111174394-6721f280-85cd-11eb-916d-bccb76262678.png)
-images.githubusercontent.com/74534547/111171914-5f614e80-85cb-11eb-9e0f-92ec7895c285.png)
+![Untitled design](https://user-images.githubusercontent.com/74534547/122693063-da36a700-d255-11eb-8af5-613176d7fc39.png)
+
 
 
 
