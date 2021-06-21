@@ -26,6 +26,10 @@ this will explain you how this website works and the use of it
 
 
 
+Sidenote: u have to update your reviews on 'La robe' manually by going to  the code of
+http://127.0.0.1/comment 
+
+
 
 
 
@@ -44,9 +48,10 @@ we do this to view the contact info and their availabity of customers
 
 Here are a few screenshots of the website
 
-![2021-03-15](https://user-images.githubusercontent.com/74534547/111171914-5f614e80-85cb-11eb-9e0f-92ec7895c285.png)
+![2021-03-15](https://user-![Untitled design](https://user-images.githubusercontent.com/74534547/122693000-8f1c9400-d255-11eb-99db-03beccb6dd80.png)
 ![2021-03-15 (2)](https://user-images.githubusercontent.com/74534547/111174381-64bf9880-85cd-11eb-8219-dcef41f51714.png)
 ![2021-03-15 (1)](https://user-images.githubusercontent.com/74534547/111174394-6721f280-85cd-11eb-916d-bccb76262678.png)
+images.githubusercontent.com/74534547/111171914-5f614e80-85cb-11eb-9e0f-92ec7895c285.png)
 
 
 
